@@ -1,0 +1,6 @@
+deployment.apps/webapp created
+NAME                      READY   STATUS              RESTARTS   AGE
+webapp-7b7f7c48d7-tlx7b   0/1     ContainerCreating   0          1s
+pod/webapp-7b7f7c48d7-tlx7b condition met
+Forwarding from 0.0.0.0:8000 -> 80
+Handling connection for 8000
