@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://dl.circleci.com/status-badge/redirect/gh/IzicTemi/Operationalize-a-ML-Microservice-API/tree/main"><img src="https://dl.circleci.com/status-badge/img/gh/IzicTemi/Operationalize-a-ML-Microservice-API/tree/main.svg?style=svg" alt="Tests">
+    <a href="https://dl.circleci.com/status-badge/redirect/gh/IzicTemi/operationalize_a_ML_microservice_API/tree/main"><img src="https://dl.circleci.com/status-badge/img/gh/IzicTemi/Operationalize-a-ML-Microservice-API/tree/main.svg?style=svg" alt="CircleCI">
     </a>
 </p>
 
