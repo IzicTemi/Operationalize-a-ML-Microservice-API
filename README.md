@@ -1,27 +1,41 @@
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/IzicTemi/Operationalize-a-ML-Microservice-API/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/IzicTemi/Operationalize-a-ML-Microservice-API/tree/main)
+<p align="center">
+    <a href="https://dl.circleci.com/status-badge/redirect/gh/IzicTemi/Operationalize-a-ML-Microservice-API/tree/main"><img src="https://dl.circleci.com/status-badge/img/gh/IzicTemi/Operationalize-a-ML-Microservice-API/tree/main.svg?style=svg" alt="Tests">
+    </a>
+</p>
 
 ## Project Overview
 
-In this project, you will apply the skills you have acquired in this course to operationalize a Machine Learning Microservice API. 
+In this project, I operationalize a Machine Learning Microservice API provided in a Python flask app — `app.py`— that serves out predictions (inference) about housing prices through API calls. 
 
-We were given a pre-trained, `sklearn` model that has been trained to predict housing prices in Boston according to several features, such as average rooms in a home and data about highway access, teacher-to-pupil ratios, and so on. You can read more about the data, which was initially taken from Kaggle, on [the data source site](https://www.kaggle.com/c/boston-housing). This project tests your ability to operationalize a Python flask app—in a provided file, `app.py`—that serves out predictions (inference) about housing prices through API calls. This project could be extended to any pre-trained machine learning model, such as those for image recognition and data labeling.
+The model's a pre-trained, `sklearn` model that has been trained to predict housing prices in Boston according to several features, such as average rooms in a home and data about highway access, teacher-to-pupil ratios, and so on. This project could be extended to any pre-trained machine learning model, such as those for image recognition and data labeling.
+
+## About the Data
+
+Data: [Boston Housing](https://www.kaggle.com/c/boston-housing).
+
+This data consists of Housing Values in Suburbs of Boston.
+
+Source:
+
+* Harrison, D. and Rubinfeld, D.L. (1978) Hedonic prices and the demand for clean air. J. Environ. Economics and Management 5, 81–102.
+* Belsley D.A., Kuh, E. and Welsch, R.E. (1980) Regression Diagnostics. Identifying Influential Data and Sources of Collinearity. New York: Wiley.
 
 ### Project Tasks
 
-The project goal is to operationalize this working, machine learning microservice using [kubernetes](https://kubernetes.io/), which is an open-source system for automating the management of containerized applications. In this project you will:
-* Test  project code using linting
-* Dockerfile to containerize this application
-* Deploy your containerized application using Docker and make a prediction
-* Improve the log statements in the source code for this application
-* Configure Kubernetes and create a Kubernetes cluster
-* Deploy a container using Kubernetes and make a prediction
-* Upload a complete Github repo with CircleCI to indicate that your code has been tested
+The project goal is to operationalize the working machine learning microservice using [kubernetes](https://kubernetes.io/), which is an open-source system for automating the management of containerized applications. In this project I'll:
+
+* Test project code using linting.
+* Create a Dockerfile to containerize this application.
+* Deploy the containerized application using Docker and make a prediction.
+* Configure Kubernetes and create a Kubernetes cluster.
+* Deploy a container using Kubernetes and make a prediction.
 
 ---
 
 ## Setup the Environment
 
-* Create a virtualenv with Python 3.7 and activate it. Refer to this link for help on specifying the Python version in the virtualenv. 
+* Create a virtualenv with Python 3.7 and activate it.
+
 ```bash
 python3 -m pip install --user virtualenv
 # You should have Python 3.7 available in your host. 
